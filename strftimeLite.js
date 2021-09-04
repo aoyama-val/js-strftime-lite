@@ -10,6 +10,7 @@ function strftimeLite(format, date) {
   result = result.replace(/%H/g, ("0" + date.getHours()).slice(-2));
   result = result.replace(/%M/g, ("0" + date.getMinutes()).slice(-2));
   result = result.replace(/%S/g, ("0" + date.getSeconds()).slice(-2));
+  result = result.replace(/%L/g, ("000" + date.getMilliseconds()).slice(-3));
   result = result.replace(/%a/g, [ "日", "月", "火", "水", "木", "金", "土" ][date.getDay()]);
   return result;
 }
