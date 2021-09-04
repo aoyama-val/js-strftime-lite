@@ -14,3 +14,5 @@ function strftimeLite(format, date) {
   result = result.replace(/%a/g, [ "日", "月", "火", "水", "木", "金", "土" ][date.getDay()]);
   return result;
 }
+
+exports.strftimeLite = strftimeLite;
