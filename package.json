@@ -1,0 +1,23 @@
+{
+  "name": "js-strftime-lite",
+  "version": "1.0.0",
+  "description": "strftimeの簡易版",
+  "main": "strftimeLite.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aoyama-val/js-strftime-lite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aoyama-val/js-strftime-lite/issues"
+  },
+  "homepage": "https://github.com/aoyama-val/js-strftime-lite#readme",
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
+}
