@@ -1,5 +1,8 @@
 /**
- * strftimeの簡易版
+ * C, Ruby, PHP等にあるstrftime関数の簡易版（一部のフォーマットにのみ対応）
+ *
+ * @param {String} format フォーマット文字列
+ * @param {object} date Dateオブジェクト
  */
 function strftimeLite(format, date) {
   var result = format;
