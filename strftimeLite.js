@@ -2,7 +2,6 @@
  * strftimeの簡易版
  */
 function strftimeLite(format, date) {
-  date = date || new Date();
   var result = format;
   result = result.replace(/%Y/g, date.getFullYear());
   result = result.replace(/%m/g, ("0" + (date.getMonth() + 1)).slice(-2));
